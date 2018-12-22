@@ -1,4 +1,10 @@
-
+//
+//  LetsButton.swift
+//  LetsButton
+//
+//  Created by Ketan Raval on 28/09/15.
+//  Copyright (c) 2015 Ketan Raval. All rights reserved.
+//
 
 import UIKit
 
@@ -63,7 +69,7 @@ open class LetsButton : UIButton {
             if isRightImage {
                 titleEdgeInsets = UIEdgeInsetsMake(0, (10 - imageView!.frame.size.width), 0, imageView!.frame.size.width)
                 imageEdgeInsets = UIEdgeInsetsMake(0, frame.size.width - (10 + imageView!.frame.size.width), 0, 0)
-                print(frame.size.width - (10 + imageView!.frame.size.width))
+               // print(frame.size.width - (10 + imageView!.frame.size.width))
             }
         }
     }

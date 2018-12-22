@@ -1,4 +1,9 @@
-
+//
+//  LetsFloatField.swift
+//
+//  Created by Alpesh Desai on 03/04/17.
+//
+//
 
 import Foundation
 import UIKit
@@ -89,7 +94,7 @@ public class LetsFloatField: UITextField {
         didSet{
             guard let color = placeholderColor else { return }
             attributedPlaceholder = NSAttributedString(string: placeholderFinal,
-                                                       attributes: [NSForegroundColorAttributeName:color])
+                                                       attributes: [NSAttributedStringKey.foregroundColor:color])
         }
     }
     
@@ -166,7 +171,7 @@ public class LetsFloatField: UITextField {
                 return
             }
             attributedPlaceholder = NSAttributedString(string: placeholderFinal,
-                                                       attributes: [NSForegroundColorAttributeName:color])
+                                                       attributes: [NSAttributedStringKey.foregroundColor:color])
         }
     }
     

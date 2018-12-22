@@ -1,4 +1,10 @@
-
+//
+//  LetsImageView.swift
+//  LetsImageView
+//
+//  Created by Ketan Raval on 07/10/15.
+//  Copyright © 2015 Ketan Raval. All rights reserved.
+//
 
 import UIKit
 @IBDesignable

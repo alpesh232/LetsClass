@@ -1,4 +1,10 @@
-
+//
+//  LetsTextView.swift
+//
+//
+//  Created by Lokesh Dudhat on 25/12/15.
+//  Copyright © 2015 letsnurture. All rights reserved.
+//
 import UIKit
 @IBDesignable
 open class LetsTextView : UITextView {
@@ -85,7 +91,7 @@ open class LetsTextView : UITextView {
         }
     }
     
-    func refreshPlaceholder() {
+    @objc func refreshPlaceholder() {
         
         if text.characters.count != 0 {
             placeholderLabel?.alpha = 0
